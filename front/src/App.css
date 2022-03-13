@@ -1,0 +1,60 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aaa;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+form label {
+  width: 500px !important;
+}
+
+input[type=text], input[type=number] {
+  width: 60%;
+  /* padding: 4px 6px; */
+  margin: 2px 0 2px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 5px;
+}
+
+form {
+  width: 50%;
+  background-color: #eee;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
